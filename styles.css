@@ -5,17 +5,9 @@ body {
     background-color: rgb(255, 255, 255);
     color: rgb(245, 243, 243);
     line-height: 1.6;
-<<<<<<< HEAD
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     background-size: 400% 400%;
     animation: gradient 25s ease infinite;
-=======
-    background-image: url('./Images/background.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: repeat; 
-    background-attachment: fixed; 
->>>>>>> 8d8f14b85b46bd96e85e05177b41e61fd5fcc61d
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -24,7 +16,7 @@ body {
 header {
      background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
+    animation: gradient 5s ease infinite;
 }
 
 p {
@@ -313,7 +305,6 @@ li {
 @keyframes animate-fade {
   0% { opacity: 0; }
   100% { opacity: 1; }
-<<<<<<< HEAD
 }
 
 
@@ -373,7 +364,3 @@ transform: translateY(130px);}
     height:20px;
     margin-left: 5%;
 }
-=======
-
-}
->>>>>>> 8d8f14b85b46bd96e85e05177b41e61fd5fcc61d
